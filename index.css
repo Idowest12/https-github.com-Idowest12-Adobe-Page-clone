@@ -172,7 +172,7 @@ h3{
     margin-right: 0px;
 }
 .left-side{
-  background: url(/Images/wall\ paper\ 2.webp);
+  background: url(./images/wall\ paper\ 2.webp);
   height: 70vh;
   width: 380px;
   background-repeat: no-repeat;
@@ -186,7 +186,7 @@ h3{
      
 }
 .Middle-side{
-    background: url(/Images/wp3618288.webp);
+    background: url(./images/wp3618288.webp);
     height: 70vh;
     width: 380px;
     background-repeat: no-repeat;
@@ -243,7 +243,7 @@ border-bottom: 2px solid black;
  margin: 0;
 }
 .left-side1{
-    background: url(/Images/50yOVM.jpg);
+    background: url(./images/50yOVM.jpg);
     font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
     color: aliceblue;
     height: 70vh;
@@ -258,7 +258,7 @@ border-bottom: 2px solid black;
     font-size: 1.4rem; 
 }
 .right-side{
-    background:url(/Images/50yOVM.jpg);
+    background:url(./images/50yOVM.jpg);
     color: white;
     height: 70vh;
     width: 380px;
@@ -278,7 +278,7 @@ border-bottom: 2px solid black;
     
 }
 .left-side2{
-    background: url(Images/50yOVM.jpg);
+    background: url(.iImages/50yOVM.jpg);
     color: #fafafa;
     height: 70vh;
     width: 380px;
@@ -292,7 +292,7 @@ border-bottom: 2px solid black;
     font-size: 1.4rem; 
 }
 .Middle-side1{
-    background: url(Images/50yOVM.jpg);
+    background: url(./images/50yOVM.jpg);
     color: #fafafa;
     height: 70vh;
     width: 380px;
@@ -306,7 +306,7 @@ border-bottom: 2px solid black;
     font-size: 1.4rem; 
 }
 .left-side4{
-  background: url(/Images/wall\ paper\ 2.webp);
+  background: url(./images/wall\ paper\ 2.webp);
   color: #fafafa;
   height: 70vh;
   width: 380px;
