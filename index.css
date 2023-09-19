@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Adobe{
+    width: 30px;
+    height: 30px;
+}
+.heading{
+    font-size: 15px;
+    color: red;
+    text-align: center;
+    padding-top: 8px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+  background-color: white;
+    color: black;
+    align-items: center;
+    padding: 20px 0;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:14px;
+   
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+ .menu-friends{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 10px;
+    gap: 40px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+} 
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+
+}
+.menu-left{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 20px;
+}
+.menu-right{
+    display: flex;
+    flex: row;
+    margin-left: 370px;
+    cursor: pointer;
+    color: black;
+}
+.menu-right:hover{
+    color: lightblue;  
+}
+.icon:hover{
+    color: lightblue;
+} 
+.dropdown{
+    width: 15px;
+    gap: 0;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.icon:hover{
+    color: lightblue;
+    
+}
+.main-container{
+    padding-top: 40px;
+    padding-left:48px;
+}
+.adobe-body{
+    width: 300px;;
+    height: 36px;
+    
+   
+
+}
+h1{
+    font-size: 48px;
+    line-height: 2.7rem;
+    font-weight: 700px;
+    padding-top: 40px;
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    padding-top: 20px;
+}
+.background{
+    width: 100%;
+}
+.main-container{
+    padding-top: 40px;
+    padding-left:48px;
+}
+.adobe-body{
+    width: 300px;;
+    height: 36px;
+    
+
+}
+h1{
+    font-size: 48px;
+    line-height: 2.7rem;
+    font-weight: 700px;
+    padding-top: 40px;
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    padding-top: 20px;
+}
+.btn{
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    height: auto;
+    min-height: 32px;
+    min-width: 72px;
+    padding: 3px 14px 5px;
+    background-color: blue;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.pic{
+    width: 400px;
+     
+}
+.image{
+  margin-left: 50px;
+  /* display: flex;
+  flex-direction: row; */
+  display: grid;
+  grid-template-columns: 0.3fr 0.3fr 0.3fr;
+  border-radius: 10px;
+  margin-top: 20px;
+     
+    
+}
+.Space1{
+  width: 400px;
+  gap:0;
+ 
+}
+.hero-container{
+   display: flex;
+   flex-direction: row;
+    margin-right: 0px;
+}
+.left-side{
+  background: url(/Images/wall\ paper\ 2.webp);
+  height: 70vh;
+  width: 380px;
+  background-repeat: no-repeat;
+  margin-left: 40px;
+  margin-top: 30px;
+  gap: 0;
+  padding-left: 24px;
+  padding-left: 24px;
+  font-weight: 600;
+  font-size: 1.4rem; 
+     
+}
+.Middle-side{
+    background: url(/Images/wp3618288.webp);
+    height: 70vh;
+    width: 380px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding-left: 24px;
+    padding-left: 24px;
+    font-weight: 600;
+    font-size: 1.4rem; 
+           
+}
+h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 36px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+h2{
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-style: normal;
+    padding-top: 8px;
+}
+#play{
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  font-weight: 500px;
+  margin-top: 20px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.btn2{
+ /* margin-left:  45px ;
+ margin-top: 20px; */
+ align-self: center;
+ display: block;
+justify-self: center;
+width: fit-content;
+font-weight: 700;
+border-bottom: 2px solid black;
+ 
+}
+.btn2:hover{
+   cursor: pointer;
+}
+.hero-container2{
+   display: flex;
+   flex-direction: row;
+ margin: 0;
+}
+.left-side1{
+    background: url(/Images/50yOVM.jpg);
+    font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    color: aliceblue;
+    height: 70vh;
+    width: 822px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    margin-top: 30px;
+    gap: 0;
+    padding-left: 24px;
+    padding-left: 24px;
+    font-weight: 600;
+    font-size: 1.4rem; 
+}
+.right-side{
+    background:url(/Images/50yOVM.jpg);
+    color: white;
+    height: 70vh;
+    width: 380px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    margin-top: 30px;
+    gap: 0;
+    padding-left: 24px;
+    padding-left: 24px;
+    font-weight: 600;
+    font-size: 1.4rem; 
+}
+.hero-container3{
+  
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.left-side2{
+    background: url(Images/50yOVM.jpg);
+    color: #fafafa;
+    height: 70vh;
+    width: 380px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    margin-top: 30px;
+    gap: 0;
+    padding-left: 24px;
+    padding-left: 24px;
+    font-weight: 600;
+    font-size: 1.4rem; 
+}
+.Middle-side1{
+    background: url(Images/50yOVM.jpg);
+    color: #fafafa;
+    height: 70vh;
+    width: 380px;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    margin-top: 30px;
+    gap: 0;
+    padding-left: 24px;
+    padding-left: 24px;
+    font-weight: 600;
+    font-size: 1.4rem; 
+}
+.left-side4{
+  background: url(/Images/wall\ paper\ 2.webp);
+  color: #fafafa;
+  height: 70vh;
+  width: 380px;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+  margin-top: 30px;
+  gap: 0;
+  padding-left: 24px;
+  padding-left: 24px;
+  font-weight: 600;
+  font-size: 1.4rem; 
+}
+.heading1{
+    font-size: 1.125rem;
+    line-height: 1.475rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    background-color: blue;
+    text-align: justify;
+    width: 405px;
+    margin-left: -25px;
+
+}
+.left-body{
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    color: black;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    
+}
+.Try{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.Ann{
+    font-size: 1.125rem;
+    line-height: 1.375rem
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.bottom-border{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-left: 40px;
+   /* padding-right: -200px; */
+    background-color: #fafafa;
+    width: 100%;
+    gap: 140px;
+    /* justify-content: space-between; */
+    margin-top: 40px;
+    margin-right: 50px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 0;
+    box-sizing: border-box;
+    transition: background-color .1s ease
+}
+ul{
+    list-style: none;
+}
+#bottom{
+    padding-top: 2px;
+    padding-left: 0px;
+    padding-bottom: 16px;
+    padding-right: 0px;
+}
+h3{
+    font-size: 14px;
+    line-height: 1.5;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.social-media{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+    gap: 20px;
+}
+.head1{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 3px;
+}
+.last-footer{
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    ma: 50px;
+}
